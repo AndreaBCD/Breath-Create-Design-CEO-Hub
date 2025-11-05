@@ -115,48 +115,19 @@ function createQuickStats() {
     },
     {
       object: 'block',
-      type: 'column_list',
-      column_list: {},
-      children: [
-        {
-          object: 'block',
-          type: 'column',
-          column: {},
-          children: [
-            {
-              object: 'block',
-              type: 'callout',
-              callout: {
-                rich_text: [
-                  { text: { content: 'Active Clients\n', styles: { bold: true } } },
-                  { text: { content: '[Track in database below]' } }
-                ],
-                icon: { emoji: '👥' },
-                color: 'blue_background'
-              }
-            }
-          ]
-        },
-        {
-          object: 'block',
-          type: 'column',
-          column: {},
-          children: [
-            {
-              object: 'block',
-              type: 'callout',
-              callout: {
-                rich_text: [
-                  { text: { content: 'This Month Revenue\n', styles: { bold: true } } },
-                  { text: { content: '[Auto-calculated from projects]' } }
-                ],
-                icon: { emoji: '💰' },
-                color: 'green_background'
-              }
-            }
-          ]
-        }
-      ]
+      type: 'callout',
+      callout: {
+        rich_text: [
+          { text: { content: '👥 Active Clients: ', styles: { bold: true } } },
+          { text: { content: 'Track in Client Projects database below\n' } },
+          { text: { content: '💰 This Month Revenue: ', styles: { bold: true } } },
+          { text: { content: 'Auto-calculated from your projects\n' } },
+          { text: { content: '✅ This Week\'s Tasks: ', styles: { bold: true } } },
+          { text: { content: 'Manage in Tasks & Actions database' } }
+        ],
+        icon: { emoji: '📊' },
+        color: 'blue_background'
+      }
     },
     {
       object: 'block',
