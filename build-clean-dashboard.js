@@ -155,7 +155,7 @@ const clientProjectsDB = {
       }
     },
     'Status': {
-      status: {
+      select: {
         options: [
           { name: 'Discovery', color: 'gray' },
           { name: 'Contract Pending', color: 'yellow' },
@@ -219,7 +219,7 @@ const tasksDB = {
     },
     'Related To': { rich_text: {} },
     'Status': {
-      status: {
+      select: {
         options: [
           { name: 'To Do', color: 'gray' },
           { name: 'In Progress', color: 'blue' },
