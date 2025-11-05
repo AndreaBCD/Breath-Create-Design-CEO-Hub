@@ -118,11 +118,11 @@ function createQuickStats() {
       type: 'callout',
       callout: {
         rich_text: [
-          { text: { content: '👥 Active Clients: ', styles: { bold: true } } },
+          { text: { content: '👥 Active Clients: ' }, annotations: { bold: true } },
           { text: { content: 'Track in Client Projects database below\n' } },
-          { text: { content: '💰 This Month Revenue: ', styles: { bold: true } } },
+          { text: { content: '💰 This Month Revenue: ' }, annotations: { bold: true } },
           { text: { content: 'Auto-calculated from your projects\n' } },
-          { text: { content: '✅ This Week\'s Tasks: ', styles: { bold: true } } },
+          { text: { content: '✅ This Week\'s Tasks: ' }, annotations: { bold: true } },
           { text: { content: 'Manage in Tasks & Actions database' } }
         ],
         icon: { emoji: '📊' },
